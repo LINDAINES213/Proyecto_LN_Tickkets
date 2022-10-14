@@ -7,15 +7,14 @@
     tools:context=".MainActivity2">
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="503dp"
-        android:layout_height="1043dp"
+        android:id="@+id/imageView3"
+        android:layout_width="658dp"
+        android:layout_height="1096dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fondo_app" />
+        app:srcCompat="@drawable/fondo_abstracto_degradado_verde_gradacion_de_color_verde_2c25jbw" />
 
     <ImageView
         android:id="@+id/imageView6"
