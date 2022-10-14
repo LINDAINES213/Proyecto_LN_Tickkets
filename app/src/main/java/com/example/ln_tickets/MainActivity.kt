@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         val logo = findViewById<ImageView>(R.id.imageView2)
 
-
-
         Glide.with(this).load(R.drawable.logo_1).into(logo)
 
         cambiarActivity()

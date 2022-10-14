@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="503dp"
+        android:layout_height="1043dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondo_app" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="131dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/liga_nacional" />
 </androidx.constraintlayout.widget.ConstraintLayout>
