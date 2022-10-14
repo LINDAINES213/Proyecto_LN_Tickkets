@@ -7,9 +7,20 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="503dp"
+        android:layout_height="1043dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondo_app" />
+
+    <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="234dp"
-        android:layout_height="476dp"
+        android:layout_width="217dp"
+        android:layout_height="534dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
