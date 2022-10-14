@@ -1,6 +1,6 @@
 package com.example.ln_tickets
 
-import androidx.appcompat.app.AppCompatActivity
+import   androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
