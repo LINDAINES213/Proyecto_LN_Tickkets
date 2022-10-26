@@ -23,12 +23,12 @@ class MainActivity : AppCompatActivity() {
 
         Glide.with(this).load(R.drawable.logo_1).into(logo)
 
-        cambiarActivity()
+        HomePage()
     }
 
-    private fun cambiarActivity(){
+    private fun HomePage(){
         Handler().postDelayed(Runnable {
-            val intent = Intent(this, MainActivity2::class.java)
+            val intent = Intent(this, HomePage::class.java)
             startActivity(intent)
         }, DURACION)
     }
