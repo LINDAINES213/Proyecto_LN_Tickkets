@@ -3,11 +3,9 @@ package com.example.ln_tickets
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class HomePage : AppCompatActivity() {
+class ScreenBoletos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home_page)
-
-        
+        setContentView(R.layout.screen_boletos)
     }
 }
