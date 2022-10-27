@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <fragment
+        android:id="@+id/mainActivity"
+        android:name="com.example.ln_tickets.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_mainActivity_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.ln_tickets.HomePage"
+        android:label="activity_home_page"
+        tools:layout="@layout/activity_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_screenBoletos"
+            app:destination="@id/screenBoletos" />
+        <action
+            android:id="@+id/action_homePage_to_screenNoticias"
+            app:destination="@id/screenNoticias" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenBoletos"
+        android:name="com.example.ln_tickets.ScreenBoletos"
+        android:label="screen_boletos"
+        tools:layout="@layout/screen_boletos" >
+        <action
+            android:id="@+id/action_screenBoletos_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenNoticias"
+        android:name="com.example.ln_tickets.ScreenNoticias"
+        android:label="ScreenNoticias" >
+        <action
+            android:id="@+id/action_screenNoticias_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+</navigation>
