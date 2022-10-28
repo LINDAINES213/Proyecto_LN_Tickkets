@@ -34,5 +34,36 @@ class ScreenBoletos : AppCompatActivity() {
             val pantallaasientos = Intent(this, ScreenAsientos::class.java)
             startActivity(pantallaasientos)
         }
+
+        val partido2 = findViewById<Button>(R.id.partido2)
+        partido2.setOnClickListener{
+            val pantallaasientos = Intent(this, ScreenAsientos::class.java)
+            startActivity(pantallaasientos)
+        }
+
+        val partido3 = findViewById<Button>(R.id.partido3)
+        partido3.setOnClickListener{
+            val pantallaasientos = Intent(this, ScreenAsientos::class.java)
+            startActivity(pantallaasientos)
+        }
+
+        val partido4 = findViewById<Button>(R.id.partido4)
+        partido4.setOnClickListener{
+            val pantallaasientos = Intent(this, ScreenAsientos::class.java)
+            startActivity(pantallaasientos)
+        }
+
+        val partido5 = findViewById<Button>(R.id.partido5)
+        partido5.setOnClickListener{
+            val pantallaasientos = Intent(this, ScreenAsientos::class.java)
+            startActivity(pantallaasientos)
+        }
+
+        val partido6 = findViewById<Button>(R.id.partido6)
+        partido6.setOnClickListener{
+            val pantallaasientos = Intent(this, ScreenAsientos::class.java)
+            startActivity(pantallaasientos)
+        }
+
     }
 }
