@@ -5,10 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
+
 class ScreenAsientos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.screen_asientos)
+        setContentView(R.layout.screen_boletos)
 
         val boletos = findViewById<Button>(R.id.boletos)
         boletos.setOnClickListener{
@@ -26,6 +27,24 @@ class ScreenAsientos : AppCompatActivity() {
         noticias.setOnClickListener{
             val pantallanoticias = Intent(this, ScreenNoticias::class.java)
             startActivity(pantallanoticias)
+        }
+
+        val tribuna = findViewById<Button>(R.id.tribuna)
+        tribuna.setOnClickListener {
+            val pantallaboletovendido = Intent(this, ScreenBoletoVendido::class.java)
+            startActivity(pantallaboletovendido)
+        }
+
+        val preferencia = findViewById<Button>(R.id.preferencia)
+        preferencia.setOnClickListener {
+            val pantallaboletovendido = Intent(this, ScreenBoletoVendido::class.java)
+            startActivity(pantallaboletovendido)
+        }
+
+        val general = findViewById<Button>(R.id.general)
+        general.setOnClickListener {
+            val pantallaboletovendido = Intent(this, ScreenBoletoVendido::class.java)
+            startActivity(pantallaboletovendido)
         }
     }
 }

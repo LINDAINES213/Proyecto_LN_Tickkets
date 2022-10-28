@@ -5,10 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
+
 class ScreenBoletoVendido : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.screen_boleto_vendido)
+        setContentView(R.layout.screen_boletos)
 
         val boletos = findViewById<Button>(R.id.boletos)
         boletos.setOnClickListener{

@@ -30,7 +30,6 @@ class ScreenNoticias : AppCompatActivity() {
             startActivity(pantallanoticias)
         }
 
-
         val noticias1 = findViewById<Button>(R.id.noticia1)
         noticias1.setOnClickListener {
             val url = "https://lahora.gt/secciones-para-ti/deportes/agencia-afp/2022/10/16/comunicaciones-sigue-liderando-el-futbol-de-guatemala/"

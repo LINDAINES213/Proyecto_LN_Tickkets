@@ -95,70 +95,68 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <Button
         android:id="@+id/partido1"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:text="Municipal - Comunicaciones"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/jornadas"
-        app:srcCompat="@drawable/partido1" />
+        app:layout_constraintTop_toBottomOf="@+id/jornadas" />
 
-    <ImageButton
+    <Button
         android:id="@+id/partido2"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:text="Xelaju - Mixco"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/partido1"
-        app:srcCompat="@drawable/partido2" />
+        app:layout_constraintTop_toBottomOf="@+id/partido1" />
 
-    <ImageButton
+    <Button
         android:id="@+id/partido3"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:text="Achuapa - Antigua"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/partido2"
-        app:srcCompat="@drawable/partido3" />
+        app:layout_constraintTop_toBottomOf="@+id/partido2" />
 
-    <ImageButton
+    <Button
         android:id="@+id/partido4"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:text="Coban - Malacateco"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/partido3"
-        app:srcCompat="@drawable/partido4" />
+        app:layout_constraintTop_toBottomOf="@+id/partido3" />
 
-    <ImageButton
+    <Button
         android:id="@+id/partido5"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:text="Iztapa - Xinabajul"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/partido4"
-        app:srcCompat="@drawable/partido5" />
+        app:layout_constraintTop_toBottomOf="@+id/partido4" />
 
-    <ImageButton
+    <Button
         android:id="@+id/partido6"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:text="Santa Lucia - Guastatoya"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/partido5"
-        app:srcCompat="@drawable/partido6" />
+        app:layout_constraintTop_toBottomOf="@+id/partido5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

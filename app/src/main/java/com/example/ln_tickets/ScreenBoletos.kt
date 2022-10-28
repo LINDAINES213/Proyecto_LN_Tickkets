@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 
 class ScreenBoletos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +27,12 @@ class ScreenBoletos : AppCompatActivity() {
         noticias.setOnClickListener{
             val pantallanoticias = Intent(this, ScreenNoticias::class.java)
             startActivity(pantallanoticias)
+        }
+
+        val partido1 = findViewById<Button>(R.id.partido1)
+        partido1.setOnClickListener{
+            val pantallaasientos = Intent(this, ScreenAsientos::class.java)
+            startActivity(pantallaasientos)
         }
     }
 }
