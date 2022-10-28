@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_screenBoletos_to_homePage"
             app:destination="@id/homePage" />
+        <action
+            android:id="@+id/action_screenBoletos_to_screenAsientos2"
+            app:destination="@id/screenAsientos" />
     </fragment>
     <fragment
         android:id="@+id/screenNoticias"
@@ -42,5 +45,23 @@
         <action
             android:id="@+id/action_screenNoticias_to_homePage"
             app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenAsientos"
+        android:name="com.example.ln_tickets.ScreenAsientos"
+        android:label="screen_asientos"
+        tools:layout="@layout/screen_asientos" >
+        <action
+            android:id="@+id/action_screenAsientos_to_screenBoletoVendido"
+            app:destination="@id/screenBoletoVendido" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenBoletoVendido"
+        android:name="com.example.ln_tickets.ScreenBoletoVendido"
+        android:label="screen_boleto_vendido"
+        tools:layout="@layout/screen_boleto_vendido" >
+        <action
+            android:id="@+id/action_screenBoletoVendido_to_screenBoletos"
+            app:destination="@id/screenBoletos" />
     </fragment>
 </navigation>
