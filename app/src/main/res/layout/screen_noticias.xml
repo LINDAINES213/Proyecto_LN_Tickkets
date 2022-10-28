@@ -12,10 +12,10 @@
         android:layout_height="1096dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintHorizontal_bias="0.668"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.778"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/fondo_abstracto_degradado_verde_gradacion_de_color_verde_2c25jbw" />
 
     <ImageView
@@ -48,6 +48,7 @@
         android:layout_height="48dp"
         android:backgroundTint="@color/white"
         android:text="Noticias"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,16 +73,67 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.118" />
 
-    <TextView
-        android:id="@+id/aviso3"
-        android:layout_width="127dp"
-        android:layout_height="48dp"
-        android:text="PANTALLA NOTICIAS"
+    <Button
+        android:id="@+id/noticia1"
+        android:layout_width="353dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/alineacion_de_comunicaciones_fc_para_el_partido_de_vuelta_vs__saprissa_liga_concacaf_2021__2_"
+        android:fontFamily="@font/actor"
+        android:text="Comunicaciones matiene el liderato del torneo"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/boletos" />
+
+    <Button
+        android:id="@+id/noticia2"
+        android:layout_width="353dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/image_2022_10_27_180936645__1_"
+        android:fontFamily="@font/actor"
+        android:text="Tabla de posiciones de la Liga Nacional de Futbol"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boletos" />
+
+    <Button
+        android:id="@+id/noticia3"
+        android:layout_width="353dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/image_2022_10_27_194325417__1_"
+        android:fontFamily="@font/actor"
+        android:text="Jornada 16 de la Liga Nacional"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boletos" />
+
+    <Button
+        android:id="@+id/noticia4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/actor"
+        android:text="mas noticias"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
