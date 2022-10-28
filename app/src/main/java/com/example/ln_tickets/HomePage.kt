@@ -27,5 +27,11 @@ class HomePage : AppCompatActivity() {
             val pantallanoticias = Intent(this, ScreenNoticias::class.java)
             startActivity(pantallanoticias)
         }
+
+        val boletos1 = findViewById<Button>(R.id.boletos1)
+        boletos1.setOnClickListener{
+            val pantallaboletos = Intent(this, ScreenBoletos::class.java)
+            startActivity(pantallaboletos)
+        }
     }
 }
