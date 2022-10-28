@@ -98,4 +98,19 @@
         app:layout_constraintVertical_bias="0.955"
         app:srcCompat="@drawable/news" />
 
+    <Button
+        android:id="@+id/boletos1"
+        android:layout_width="404dp"
+        android:layout_height="167dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:drawableLeft="@drawable/alineacion_de_comunicaciones_fc_para_el_partido_de_vuelta_vs__saprissa_liga_concacaf_2021__2_"
+        android:fontFamily="@font/actor"
+        android:text="Boletos Jornada 17 Disponibes"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
