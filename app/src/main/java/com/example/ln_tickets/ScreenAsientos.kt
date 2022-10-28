@@ -45,5 +45,12 @@ class ScreenAsientos : AppCompatActivity() {
             val pantallaboletovendido = Intent(this, ScreenBoletoVendido::class.java)
             startActivity(pantallaboletovendido)
         }
+
+        val volver = findViewById<Button>(R.id.volver)
+        volver.setOnClickListener {
+            val pantallaboletos = Intent(this, ScreenBoletos::class.java)
+            startActivity(pantallaboletos)
+        }
+
     }
 }
