@@ -5,39 +5,28 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class HomePage : AppCompatActivity() {
+
+class PlantillasEquipos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home_page)
+        setContentView(R.layout.screen_plantillas)
 
         val boletos = findViewById<Button>(R.id.boletos)
-        boletos.setOnClickListener{
+        boletos.setOnClickListener {
             val pantallaboletos = Intent(this, ScreenBoletos::class.java)
             startActivity(pantallaboletos)
         }
 
         val inicio = findViewById<Button>(R.id.inicio)
-        inicio.setOnClickListener{
+        inicio.setOnClickListener {
             val pantallainicio = Intent(this, HomePage::class.java)
             startActivity(pantallainicio)
         }
 
         val noticias = findViewById<Button>(R.id.noticias)
-        noticias.setOnClickListener{
+        noticias.setOnClickListener {
             val pantallanoticias = Intent(this, ScreenNoticias::class.java)
             startActivity(pantallanoticias)
-        }
-
-        val boletos1 = findViewById<Button>(R.id.boletos1)
-        boletos1.setOnClickListener{
-            val pantallaboletos = Intent(this, ScreenBoletos::class.java)
-            startActivity(pantallaboletos)
-        }
-
-        val plantillas = findViewById<Button>(R.id.plantillas)
-        plantillas.setOnClickListener{
-            val pantallaplantillas = Intent(this, PlantillasEquipos::class.java)
-            startActivity(pantallaplantillas)
         }
     }
 }

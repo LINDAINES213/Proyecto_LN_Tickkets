@@ -101,6 +101,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/boletos" />
 
+    <Button
+        android:id="@+id/plantillas"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#85BD4040"
+        android:fontFamily="@font/actor"
+        android:text="Conoce a las plantillas de los equipos de la Liga Nacional!"
+        android:textColor="#020202"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="407dp"
