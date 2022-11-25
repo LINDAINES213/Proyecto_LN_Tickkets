@@ -12,11 +12,11 @@ import com.google.zxing.BarcodeFormat
 import com.journeyapps.barcodescanner.BarcodeEncoder
 
 
-class ScreenDatosCompra : AppCompatActivity() {
+class ScreenDatosCompraTribuna : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.screen_datos_compra)
+        setContentView(R.layout.screen_datos_compra_tribuna)
 
         var dpi: EditText=findViewById(R.id.dpi)
         var codigo: ImageView=findViewById(R.id.codigo)
@@ -61,14 +61,4 @@ class ScreenDatosCompra : AppCompatActivity() {
 
 
     }
-
-   /** fun Enviar(view: View){
-        var nom=nombre?.text.toString()
-        var asi=asientos?.text.toString()
-        var intento=Intent(this, CompraFinal::class.java)
-        intento.putExtra("nom", nom)
-        intento.putExtra("asi", asi)
-        BarcodeEncoder barcodeEncoder = new BarcodeEncoder()
-        startActivity(intento)
-    }*/
 }

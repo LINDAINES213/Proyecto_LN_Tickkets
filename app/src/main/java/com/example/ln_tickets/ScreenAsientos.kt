@@ -30,19 +30,19 @@ class ScreenAsientos : AppCompatActivity() {
 
         val tribuna = findViewById<Button>(R.id.tribuna)
         tribuna.setOnClickListener {
-            val pantallaboletovendido = Intent(this, ScreenDatosCompra::class.java)
+            val pantallaboletovendido = Intent(this, ScreenDatosCompraTribuna::class.java)
             startActivity(pantallaboletovendido)
         }
 
         val preferencia = findViewById<Button>(R.id.preferencia)
         preferencia.setOnClickListener {
-            val pantallaboletovendido = Intent(this, ScreenDatosCompra::class.java)
+            val pantallaboletovendido = Intent(this, ScreenDatosCompraPreferencia::class.java)
             startActivity(pantallaboletovendido)
         }
 
         val general = findViewById<Button>(R.id.general)
         general.setOnClickListener {
-            val pantallaboletovendido = Intent(this, ScreenDatosCompra::class.java)
+            val pantallaboletovendido = Intent(this, ScreenDatosCompraTribuna::class.java)
             startActivity(pantallaboletovendido)
         }
 
