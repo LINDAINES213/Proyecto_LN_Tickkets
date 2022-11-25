@@ -57,9 +57,9 @@
     </fragment>
     <fragment
         android:id="@+id/screenBoletoVendido"
-        android:name="com.example.ln_tickets.ScreenBoletoVendido"
+        android:name="com.example.ln_tickets.ScreenDatosCompra"
         android:label="screen_boleto_vendido"
-        tools:layout="@layout/screen_boleto_vendido" >
+        tools:layout="@layout/screen_datos_compra" >
         <action
             android:id="@+id/action_screenBoletoVendido_to_screenBoletos"
             app:destination="@id/screenBoletos" />

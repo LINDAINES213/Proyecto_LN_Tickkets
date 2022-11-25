@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScreenBoletoVendido">
+    tools:context=".ScreenDatosCompra">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -12,10 +12,10 @@
         android:layout_height="1096dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintHorizontal_bias="0.728"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.778"
+        app:layout_constraintVertical_bias="0.882"
         app:srcCompat="@drawable/fondo_abstracto_degradado_verde_gradacion_de_color_verde_2c25jbw" />
 
     <ImageView
@@ -72,20 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/aviso"
-        android:layout_width="252dp"
-        android:layout_height="84dp"
-        android:fontFamily="@font/actor"
-        android:text="Su boleto ha sido comprado exitosamente! Gracias por usar LN Tickets!"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.492" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
