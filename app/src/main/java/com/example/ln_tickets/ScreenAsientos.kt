@@ -42,7 +42,7 @@ class ScreenAsientos : AppCompatActivity() {
 
         val general = findViewById<Button>(R.id.general)
         general.setOnClickListener {
-            val pantallaboletovendido = Intent(this, ScreenDatosCompraTribuna::class.java)
+            val pantallaboletovendido = Intent(this, ScreenDatosCompraGeneral::class.java)
             startActivity(pantallaboletovendido)
         }
 
