@@ -94,7 +94,7 @@
         android:backgroundTint="@android:color/holo_blue_light"
         android:drawableLeft="@drawable/lnfg_ta16__1_"
         android:fontFamily="@font/actor"
-        android:text="Boletos Jornada 17 Disponibes"
+        android:text="Boletos Jornada 22 Disponibes"
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"

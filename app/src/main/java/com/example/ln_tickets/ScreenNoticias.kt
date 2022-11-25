@@ -32,7 +32,7 @@ class ScreenNoticias : AppCompatActivity() {
 
         val noticias1 = findViewById<Button>(R.id.noticia1)
         noticias1.setOnClickListener {
-            val url = "https://lahora.gt/secciones-para-ti/deportes/agencia-afp/2022/10/16/comunicaciones-sigue-liderando-el-futbol-de-guatemala/"
+            val url = "https://www.prensalibre.com/deportes/futbol-nacional/liga-nacional-antigua-gfc-gana-anticipadamente-la-fase-de-clasificacion-al-golear-a-comunicaciones-breaking/"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)
@@ -48,7 +48,7 @@ class ScreenNoticias : AppCompatActivity() {
 
         val noticias3 = findViewById<Button>(R.id.noticia3)
         noticias3.setOnClickListener {
-            val url = "https://www.guatemala.com/deportes/futbol-guatemalteco/programacion-partidos-jornada-16-del-torneo-apertura-2022-liga-nacional.html"
+            val url = "https://www.flashscore.es/futbol/guatemala/liga-nacional/partidos/"
             val k = Intent(Intent.ACTION_VIEW)
             k.data = Uri.parse(url)
             startActivity(k)
