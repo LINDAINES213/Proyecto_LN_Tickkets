@@ -75,4 +75,198 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.118" />
 
+    <Button
+        android:id="@+id/achuapa"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/achuapa1"
+        android:fontFamily="@font/actor"
+        android:text="Achuapa"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <Button
+        android:id="@+id/antigua"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/antiguagfc1"
+        android:fontFamily="@font/actor"
+        android:text="Antigua"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <Button
+        android:id="@+id/coban"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/coban1"
+        android:fontFamily="@font/actor"
+        android:text="Coban"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <Button
+        android:id="@+id/comunicaciones"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/cremasfc"
+        android:fontFamily="@font/actor"
+        android:text="Comunicaciones"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/guastatoya"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/guasta1"
+        android:fontFamily="@font/actor"
+        android:text="Guastatoya"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/iztapa"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/iztapa1"
+        android:fontFamily="@font/actor"
+        android:text="Iztapa"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/malacateco"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/malacateco1"
+        android:fontFamily="@font/actor"
+        android:text="Malacateco"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <Button
+        android:id="@+id/mixco"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/mixco1"
+        android:fontFamily="@font/actor"
+        android:text="Mixco"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <Button
+        android:id="@+id/municipal"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/municipal1"
+        android:fontFamily="@font/actor"
+        android:text="Municipal"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <Button
+        android:id="@+id/santalucia"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/santalucia1"
+        android:fontFamily="@font/actor"
+        android:text="Santa Lucia"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <Button
+        android:id="@+id/xelaju"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/xelaju1"
+        android:fontFamily="@font/actor"
+        android:text="Xelaju"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <Button
+        android:id="@+id/xinabajul"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/xina1"
+        android:fontFamily="@font/actor"
+        android:text="Xinabajul"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
