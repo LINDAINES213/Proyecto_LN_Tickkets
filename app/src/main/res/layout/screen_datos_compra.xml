@@ -73,6 +73,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/dpi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/actor"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="No. DPI"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <EditText
         android:id="@+id/nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,28 +103,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/boletos"
-        app:layout_constraintVertical_bias="0.119" />
-
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/actor"
-        android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        android:text="Ingrese su E-mail"
-        android:textColor="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.386" />
+        app:layout_constraintTop_toBottomOf="@+id/boletos"
+        app:layout_constraintVertical_bias="0.136" />
 
     <EditText
         android:id="@+id/asientos"
@@ -124,43 +124,19 @@
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.513" />
 
-    <EditText
-        android:id="@+id/tarjeta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/actor"
-        android:inputType="number"
-        android:minHeight="48dp"
-        android:text="No. Tarjeta"
-        android:textColor="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
-
-    <EditText
+    <ImageView
         android:id="@+id/codigo"
+        app:layout_constraintBottom_toTopOf="@+id/asientos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/actor"
-        android:inputType="number"
-        android:minHeight="48dp"
-        android:text="Codigo de Seguridad"
-        android:textColor="@color/black"
-        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="3.80"/>
 
 
     <Button
@@ -169,7 +145,6 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/actor"
-        android:onClick="Enviar"
         android:text="Proceder con la compra"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -178,23 +153,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.935" />
 
-    <EditText
-        android:id="@+id/fechav"
-        android:layout_width="171dp"
-        android:layout_height="48dp"
-        android:ems="10"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/actor"
-        android:inputType="date"
-        android:text="Fecha Vencimiento"
+        android:text="El QR es equivalente a su entrada,\n al generarse tome una captura de pantalla"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.828" />
-
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.203" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

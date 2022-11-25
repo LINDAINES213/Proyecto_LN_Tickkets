@@ -4,6 +4,7 @@
     package="com.example.ln_tickets">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android"/>
 
     <application
         android:allowBackup="true"
@@ -13,7 +14,8 @@
         android:label="LN Tickets"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        android:hardwareAccelerated="true">
         <activity
             android:name=".CompraFinal"
             android:exported="false">
